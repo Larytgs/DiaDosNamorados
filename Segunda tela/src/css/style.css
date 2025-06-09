@@ -48,10 +48,6 @@ img:not(.cover-img) {
   margin: 2rem 0; /* Adicionado margem vertical */
 }
 
-article {
-  margin: auto;
-}
-
 /* Para telas maiores */
 @media (min-width: 768px) {
   section {
