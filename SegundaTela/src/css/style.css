@@ -22,7 +22,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 0, 149, 0.532);
+  background: rgba(10, 8, 95, 0.532);
   border-radius: 50px;
 }
 
