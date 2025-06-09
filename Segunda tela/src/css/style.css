@@ -34,7 +34,8 @@ section {
   min-height: 100vh;
   overflow: hidden;
   position: relative;
-  padding: 2rem 1rem; /* Adicionado padding vertical */
+  padding: 1rem; /* Adicionado padding vertical */
+  margin-top: -12%;
 }
 
 img:not(.cover-img) {
@@ -127,10 +128,14 @@ footer {
   font-size: 12px;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 350px) {
   section {
     gap: 3rem;
     padding: 0 1.5rem;
+  }
+
+  section:nth-child(2n-1) {
+    text-align: center;
   }
 
   p {
@@ -139,6 +144,9 @@ footer {
 }
 
 @media (min-width: 541px) {
+  section:nth-child(2n-1) {
+    text-align: center;
+  }
   p {
     font-size: 1.25rem;
     margin-top: 1.5rem;
@@ -167,9 +175,26 @@ footer {
   }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 768px) {
   section {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Nas sections onde a imagem está primeiro (1ª e 3ª), inverter para texto + imagem */
+  section:not(.troca) > img {
+    order: 2; /* Imagem depois */
+  }
+  section:not(.troca) > div {
+    order: 1; /* Texto antes */
+  }
+  /* Na section .troca já está na ordem certa (texto depois imagem), então não precisa mexer */
+
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
   }
 }
 
