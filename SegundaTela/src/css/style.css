@@ -40,6 +40,11 @@ section {
 .section1 {
   margin-top: 1%;
 }
+img:not(.cover-img).imgPrincipal {
+  /*Tentando dxar ele maior*/
+  width: 200px;
+  height: 250px;
+}
 
 img:not(.cover-img) {
   width: 200px;
@@ -140,8 +145,8 @@ footer {
     gap: 3px;
   }
   img:not(.cover-img) {
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 230px;
   }
 }
 
