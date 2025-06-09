@@ -37,6 +37,9 @@ section {
   padding: 1rem; /* Adicionado padding vertical */
   margin-top: -12%;
 }
+.section1 {
+  margin-top: 1%;
+}
 
 img:not(.cover-img) {
   width: 20px;
@@ -133,9 +136,16 @@ footer {
     gap: 3rem;
     padding: 0 1.5rem;
   }
+  .section1 {
+    margin-bottom: -35%;
+  }
 
   section:nth-child(2n-1) {
     text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 
   p {
@@ -147,6 +157,10 @@ footer {
   section:nth-child(2n-1) {
     text-align: center;
   }
+  .section1 {
+    margin-bottom: -10%;
+  }
+
   p {
     font-size: 1.25rem;
     margin-top: 1.5rem;
@@ -157,7 +171,7 @@ footer {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   h1,
