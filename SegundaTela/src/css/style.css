@@ -135,6 +135,10 @@ footer {
   .section1 {
     display: none;
   }
+  .my-article {
+    columns: 2;
+    gap: 3px;
+  }
 }
 
 @media (min-width: 350px) {
