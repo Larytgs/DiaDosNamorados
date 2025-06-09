@@ -1,7 +1,6 @@
 body {
   background: url("/src/img/fundo.jpg") no-repeat center center fixed;
   background-size: cover;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -47,7 +46,7 @@ body {
 
 button {
   padding: 15px 35px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   background: linear-gradient(45deg, #ff69b4, #ff1493);
