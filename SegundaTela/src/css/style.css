@@ -40,6 +40,10 @@ section {
 .section1 {
   margin-top: 1%;
 }
+.section1 img {
+  width: 100vw;
+  height: 100vh;
+}
 
 img:not(.cover-img) {
   width: 20px;
@@ -138,6 +142,10 @@ footer {
   }
   .section1 {
     margin-bottom: -40%;
+  }
+  .section1 img {
+    width: auto;
+    height: auto;
   }
 
   section:nth-child(2n-1) {
