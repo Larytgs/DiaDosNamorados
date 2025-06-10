@@ -40,14 +40,16 @@ section {
 .section1 {
   margin-top: 1%;
 }
-
-img:not(.cover-img).imgPrincipal {
-  /*Tentando dxar ele maior*/
+.imgPrincipal {
+  width: 300px;
+  height: 350px;
+}
+img {
   width: 200px;
   height: 250px;
 }
 
-img:not(.cover-img) {
+img {
   width: 200px;
   height: 250px;
   object-fit: cover;
@@ -64,7 +66,7 @@ img:not(.cover-img) {
     padding: 3rem 2rem;
   }
 
-  img:not(.cover-img) {
+  img {
     margin: 3rem 0;
   }
 }
@@ -76,7 +78,7 @@ img:not(.cover-img) {
     padding: 4rem 3rem;
   }
 
-  img:not(.cover-img) {
+  img {
     margin: 0;
   }
 }
@@ -114,7 +116,7 @@ h2 {
   letter-spacing: 0.375rem;
 }
 
-img:not(.cover-img) {
+img {
   object-fit: cover;
   object-position: top;
   border-radius: 4rem;
@@ -145,7 +147,7 @@ footer {
     columns: 2;
     gap: 3px;
   }
-  img:not(.cover-img) {
+  img {
     width: 170px;
     height: 230px;
   }
@@ -160,8 +162,9 @@ footer {
     margin-bottom: -40%;
   }
 
-  section:nth-child(2n-1) {
+  section {
     text-align: center;
+    margin-top: 2%;
   }
 
   h1 {
