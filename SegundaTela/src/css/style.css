@@ -88,7 +88,7 @@ section div {
   margin-top: 2rem;
 }
 
-section:nth-child(2n-1) {
+section {
   text-align: end;
 }
 
@@ -163,7 +163,6 @@ footer {
   }
 
   section {
-    text-align: center;
     margin-top: 2%;
   }
 
@@ -177,9 +176,6 @@ footer {
 }
 
 @media (min-width: 541px) {
-  section:nth-child(2n-1) {
-    text-align: center;
-  }
   .section1 {
     margin-bottom: -10%;
   }
