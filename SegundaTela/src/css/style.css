@@ -207,6 +207,7 @@ footer {
   section {
     display: flex;
     flex-direction: column;
+    gap: 0rem;
   }
 
   /* Nas sections onde a imagem está primeiro (1ª e 3ª), inverter para texto + imagem */
