@@ -40,9 +40,7 @@ section {
 .section1 {
   margin-top: 1%;
 }
-.sectionMain {
-  margin-top: 1%;
-}
+
 img:not(.cover-img).imgPrincipal {
   /*Tentando dxar ele maior*/
   width: 200px;
@@ -140,10 +138,6 @@ footer {
 @media (max-width: 600px) {
   .section1 {
     display: none;
-  }
-  .sectionMain {
-    margin-top: -20%;
-    position: relative;
   }
 }
 @media (max-width: 430px) {
