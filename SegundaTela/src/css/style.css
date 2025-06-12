@@ -116,6 +116,12 @@ h2 {
   letter-spacing: 0.375rem;
 }
 
+/* Contagem */
+.container {
+  text-align: center;
+  background-color: transparent;
+}
+
 img {
   object-fit: cover;
   object-position: top;
