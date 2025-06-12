@@ -36,6 +36,7 @@ section {
   position: relative;
   padding: 1rem; /* Adicionado padding vertical */
   margin-top: -12%;
+  text-align: end;
 }
 .section1 {
   margin-top: 1%;
@@ -68,10 +69,6 @@ img {
 section div {
   max-width: 40rem;
   margin-top: 2rem;
-}
-
-section {
-  text-align: end;
 }
 
 p {
@@ -148,13 +145,10 @@ footer {
   section {
     gap: 3rem;
     padding: 0 1.5rem;
+    margin-top: 2%;
   }
   .section1 {
     margin-bottom: -40%;
-  }
-
-  section {
-    margin-top: 2%;
   }
 
   h1 {
