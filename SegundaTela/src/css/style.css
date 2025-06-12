@@ -120,8 +120,7 @@ h2 {
 .container {
   text-align: center;
   background-color: transparent;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px;
   margin: auto;
   background-color: #a2afe99f;
 }
