@@ -120,8 +120,10 @@ h2 {
 .container {
   text-align: center;
   background-color: transparent;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  background-color: #a2afe99f;
 }
 
 img {
