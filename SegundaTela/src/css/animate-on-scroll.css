@@ -1,7 +1,7 @@
 .animate {
   filter: blur(3px);
   transition: 1s;
-  color: #816fba;
+  color: white;
 }
 
 .animate.from-top {
